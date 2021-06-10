@@ -1,0 +1,32 @@
+1. Solicitar al usuario que ingrese un número entero N, luego generar en forma aleatoria N números enteros comprendidos entre 1 y 100 y determinar cuántos son pares y cuántos impares.
+
+Algoritmo ParesImpares
+	
+	Definir nRandom, n Como Entero
+	
+	Escribir "Ingrese un numero entero entre 1 y 100: "
+	leer n
+	p = 0
+	imp = 0
+	
+	para i = 1  hasta n con paso 1  hacer 
+		
+		nRandom =  azar (100) + 1 
+		 Escribir nRandom
+			
+		si nRandom MOD 2 = 0 
+			
+			p = p +1
+			
+		SiNo
+			imp = imp + 1
+			
+			
+		FinSi
+		
+	finpara 
+	Escribir " La cantidad de pares es: " p
+	Escribir " La cantidad de impares es; " imp
+	
+	
+FinAlgoritmo
