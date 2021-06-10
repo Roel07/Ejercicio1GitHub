@@ -23,9 +23,10 @@ public static void main(String[] args) {
 			imp = imp + 1;
 		} 
 
+	}
+	
 		System.out.println(" La cantidad de pares es: " + p);
 		System.out.println(" La cantidad de impares es: " + imp);
-	}
 }
 
 }
