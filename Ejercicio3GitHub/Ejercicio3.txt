@@ -1,0 +1,13 @@
+3. El factorial de un número entero se denoa de la siguiente manera "n!" = n*(n-1)-(n-2)...
+Por ejemplo: 5! = 5*4*3*2*1 siendo el resultado 120. Se pide desarrollar un programa que lee un valor N y determine su factorial.
+
+Algoritmo Disminuir
+	Definir n Como Entero
+	nFactorial = 1
+	Escribir 'Ingrese un numero entero: '
+	Leer n
+	Para i = 1 Hasta n Con Paso 1 Hacer
+		nFactorial  = nFactorial * i
+	FinPara
+	Escribir nFactorial
+FinAlgoritmo
